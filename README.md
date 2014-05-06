@@ -1,14 +1,11 @@
 sonar-vstest
 ============
 
-Sonar plugin for running tests with VsTest
-
-# Sonar VsTest Plugin
 The Sonar CSharp ecosystem already comes with a Gallio plugin, but most people use VS while writing tests, so it seems a little weird to use a different test runner when you're running Sonar analysis on your code.  So, here's a VsTest plugin for Sonar.
 
 ## Installation
-* Copy vstest-runner-0.1.jar to your Sonar plugins directoryy
-* Copy vstest-plugin-0.1.jar to your Sonar plugins directoryy
+* Copy vstest-runner-x.x.jar to your Sonar plugins directory
+* Copy vstest-plugin-x.x.jar to your Sonar plugins directory
 * Delete the Gallio plugin and runner dlls
 * Restart Sonar
 
